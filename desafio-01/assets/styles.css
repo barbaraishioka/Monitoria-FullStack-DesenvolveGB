@@ -170,8 +170,8 @@ footer {
 }
 
 @media only screen and (max-width: 1279px) {
-  .content__wrapper {
-    padding-inline: 20px;
+  header {
+    padding-inline: 16px;
   }
 }
 
@@ -192,6 +192,10 @@ footer {
     align-items: center;
   }
 
+  footer img:not(.social__icons img) {
+    scale: 0.6;
+  }
+
   footer img,
   footer a,
   footer p {
@@ -200,7 +204,8 @@ footer {
 }
 
 @media only screen and (max-width: 580px) {
-  header h1 {
+  header h1,
+  footer p {
     display: none;
   }
 }
